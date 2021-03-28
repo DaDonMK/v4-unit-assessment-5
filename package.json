@@ -16,7 +16,11 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "axios": "^0.20.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "massive": "^6.7.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3"
@@ -41,5 +45,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "<img src=\"https://s3.amazonaws.com/devmountain/readme-logo.png\" width=\"250\" align=\"right\">",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaDonMK/v4-unit-assessment-5.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaDonMK/v4-unit-assessment-5/issues"
+  },
+  "homepage": "https://github.com/DaDonMK/v4-unit-assessment-5#readme"
 }
