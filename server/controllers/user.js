@@ -67,10 +67,11 @@ logout: (req, res) => {
 },
 
 getUser: (req, res) => {
-    if(req.session.user){
-        res.status(200).send(req.session.user)
-    }else {
-        res.sendStatus(403);
-       }
+    const { user } = req.session;
+    if (user) {
+      return res.status(200).send(user);
+    } else {
+      return res.sendStatus(404);
     }
+}
 }
